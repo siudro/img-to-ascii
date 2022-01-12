@@ -1,1 +1,1 @@
-# img-to-text
+# img-to-text-converter
