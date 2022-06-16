@@ -1,10 +1,33 @@
 from PIL import Image
+from flask import Flask, redirect, url_for, render_template
+
+# app = Flask(__name__)
+
+# @app.route("/<name>")
+# def home(name):
+# #    return render_template("index.html", content=name,s=2)
+#     return render_template("index.html", content=["sedra","layla","alaa"])
+
+
+
+
+
+# # @app.route("/<name>")
+# # def result(name):
+# #     return f"Here is your {name}!"
+
+# # @app.route("/admin/")
+# # def admin():
+# #     return redirect(url_for("ASCII",name="Admin!"))
+# if __name__ == "__main__":
+#     app.run()
+
 
 # ascii characters used to build the output text
 #customizable settings: chars, resolution, animation frames
 # style= int(input("choose style: \n 1- \n 2- \n 3-\n"))
 # add switch here for ascii style
-ASCII_CHARS = ["G", "F", "8", "*", ";", ",", " ", " ", " ", " ", " "]
+ASCII_CHARS = ["G", "F", "8", "*", ":", ",", " ", " ", " ", " ", " "]
 
 
 #adjust/set resolution
@@ -48,7 +71,7 @@ def main(new_width=resolution):
     
     # print result
     print(ascii_image)
-    
+    150
     # save result to "ascii_image.txt"
     with open("ascii_image.txt", "w") as f:
         f.write(ascii_image)

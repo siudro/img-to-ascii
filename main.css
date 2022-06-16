@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #13A10E;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0C0C0C;
+    overflow-y: scroll;
+    
+}
+article{
+    color: #39FF14;
+}
+h1{
+        color: #39FF14;
+}
+a{
+    color: #CCCCCC;
+    
+}
+
+fieldset{
+    border-color: #13A10E;
+    
+}
+a:visited{
+    color: #CCCCCC;
+
+}
+a:hover a:active{
+
+    color:#C50F1F;
+}
+table, tr, th, td, caption{
+    border: 1px solid #13A10E;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+}
+legend{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+script{
+    white-space: pre-wrap;
+
+}
+div {
+    white-space: pre-wrap;
+    font-size: x-small;
+}
+input,select,optgroup{
+    border: 1.5px solid #13A10E;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    text-align: center; 
+    background-color: #0C0C0C;  
+    color: #39FF14;
+}
+nav{
+    padding: 0 10px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 10;  
+    background-color: #0C0C0C;
+    transition:box-shadow 300ms ease-in ;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0C0C0C;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: #39FF14;
+  }
+section p{
+    color: #13A10E;
+
+}
+textarea{
+    background-color: #0C0C0C;
+    border-color: #13A10E;
+    color: #13A10E;
+    white-space: pre-wrap;
+
+    
+}
+
+button {
+    min-width: 130px;
+        font-family: 'Courier New', Courier, monospace;
+
+    height: 40px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #13A10E;
+    overflow: hidden;
+    border: 2px solid #13A10E;
+    color: white;
+  }
+  button:hover {
+    color: #39FF14;
+  }
+  
+  button:hover:after {
+    height: 100%;
+  }
+  button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background-color: #0C0C0C;
+  }
+
+footer {
+    box-shadow: none;
+    padding: 8px 25px;
+    border:none;
+    background-color: #0C0C0C;
+    color: white(108, 117, 125);
+
+}
+footer a:hover{
+    
+        background-color: #0C0C0C;
+        color: #39FF14;
+      
+}
